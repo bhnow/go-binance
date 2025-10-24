@@ -182,7 +182,6 @@ func TestGetOpenOrders(t *testing.T) {
     // Param
     query := binance.OpenOrdersQuery {
         Symbol: "BNBBTC",
-    address = 0x44ded4bcfe2c099a766ec2cd77e18f45aaf50903
     }
 
     client := binance.New(os.Getenv("BINANCE_KEY"), os.Getenv("BINANCE_SECRET"))
